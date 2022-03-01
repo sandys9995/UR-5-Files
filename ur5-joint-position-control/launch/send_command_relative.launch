@@ -1,0 +1,3 @@
+<launch>
+    <node pkg = "ur5-joint-position-control" name = "ur5_send_commands_relative_node" type = "ur5_send_commands_relative_node" required="true" output = "screen"/>
+</launch>
