@@ -3,10 +3,10 @@
 First try to install the following packages.
 Using apt (Ubuntu, Debian)
 
-On supported Linux distributions (Ubuntu, up to 16.04 (Xenial), i386 and amd64) and ROS versions:
+On supported Linux distributions (except noetic) and ROS versions:
 
 sudo apt-get install ros-$ROS_DISTRO-universal-robot |         --------------------------------
-note: If you are noetic user, try with any of the distribution except noetic while intalling the Universal robot package in the beginning.
+note: If you are a noetic user, try with any of the distribution except noetic while intstalling the Universal robot package in the beginning.
 
 
 After this:  ---------------------------------- |
