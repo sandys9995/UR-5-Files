@@ -22,4 +22,8 @@ To control our robot we used PID controller and callibrate it with the help of r
 2) The computation for our PID controller output τ which is the effort that is applied on the robot joints looks something like this:
    τ=Kp∗perror+Ki∗∫t0perror(t)–Kd∗v
  
+Secondly,
+To move the end-effector by applied effort.
+1) roslaunch ur5-joint-position-control ur5_joint_effort_control.launch
+2) rosrun ur5-joint-position-control send_effort_node
 
