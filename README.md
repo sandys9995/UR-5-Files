@@ -13,7 +13,7 @@ After this:
 
 NOW,
 Run the following commands for positioning,
-1) roslaunch ur5-joint-position-control ur5_joint_position_control.launch 
+1) roslaunch ur5-joint-position-control ur5_gazebo_joint_position_control.launch 
 2) roslaunch ur5-joint-position-control send_commands_relative.launch ( to move the joint in joint frame)
 3) roslaunch ur5-joint-position-control send_commands_absolute.launch ( to move the joint in fixed frame)
 
